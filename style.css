@@ -1,5 +1,7 @@
 body {
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
+    flex-shrink: 0;
 }
 .toph {
     display: flex;
@@ -8,8 +10,10 @@ body {
     src: url(roboto-black.ttf) format("truetype");
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 64px;
+    padding-bottom: 20px;
     padding-top: 16px;
+    margin-bottom: -10px;
+    flex-shrink: 0;
 }
 .logo {
     margin-left: 128px;
@@ -23,7 +27,7 @@ body {
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-right: 24px;
+    margin-right: 48px;
     gap: 16px;
     color: #e5e7eb;
 }
@@ -51,11 +55,14 @@ a {
 .mcon {
     display: flex;
     background-color: #1f2937;
-    padding: 128px;
+    padding: 129px;
     justify-content: space-between;
-    border: 10px solid red;
+    /* border: 10px solid red; */
     align-content: center;
     align-self: center;
+    margin: 0;
+    flex-shrink: 0;
+    
 }
 
 .header1 {
@@ -65,26 +72,28 @@ a {
     font-weight: 700;
     src: url(roboto-black.ttf) format("truetype");
     justify-content: flex-start;   
-    border: 10px solid red;
+    flex-shrink: 0;
+    /* border: 10px solid red; */
 }
 .pody1 {
-justify-content: flex-start;
-font-family: roboto;
-font-weight: 100;
-src: url(roboto-black.ttf) format("truetype");
-color: #f9faf8;
-border: 10px solid red;
+    justify-content: flex-start;
+    font-family: roboto;
+    font-weight: 100;
+    src: url(roboto-black.ttf) format("truetype");
+    color: #f9faf8;
+    /* border: 10px solid red; */
 }
 
 .pic1 { 
  display: flex;
  height: auto;
- width: 350px;
+ width: 400px;
  justify-content: flex-end;
  align-items: center;
  align-content: center;
- border: 10px solid red;
+ /* border: 10px solid red; */
  flex-direction: row;
+ margin-right: 45px;
 }
 
 .words {
@@ -94,16 +103,67 @@ border: 10px solid red;
     margin-left: 24px;
     align-items: center;
     align-content: center;
+    flex-shrink: 0;
 }
 
 .sign-up {
     display: flex;
-    padding: 5px 8px 8px 5px;
+    padding: 6px 8px 8px 6px;
     background-color: #3882F6;
     width: 100px;
     font-family: roboto;
-    font-weight: 500;
+    font-weight: 700;
     color: #e5e7eb;
     border-radius: 8px;
     justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+    flex-shrink: 0;
+}
+
+.wcon {
+    display: flex;
+    background-color: #f9faf8;
+    padding: 200px;
+    margin: 0px;
+    justify-content: space-around;
+
+}
+
+
+.ccc {
+    display: flex;
+    justify-content: space-around;
+    gap: 48px;
+
+}
+
+
+.card {
+    display: flex;
+    border: 5px solid #3882F6;
+    background-color: none;
+    width: 200px;
+    height: 200px;
+    gap: 48px;
+    border-radius: 9px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wconh {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: nowrap;
+    background-color: #f9faf8;
+}
+
+.concon {
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 40px;
+    color: #1f2937;
+    padding-top: 64px;
 }
