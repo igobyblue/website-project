@@ -81,6 +81,7 @@ a {
     font-weight: 100;
     src: url(roboto-black.ttf) format("truetype");
     color: #f9faf8;
+    flex-shrink: 0;
     /* border: 10px solid red; */
 }
 
@@ -94,6 +95,8 @@ a {
  /* border: 10px solid red; */
  flex-direction: row;
  margin-right: 45px;
+ box-shadow: 1px solid black;
+ flex-shrink: 0;
 }
 
 .words {
@@ -119,14 +122,17 @@ a {
     align-content: center;
     margin-top: 10px;
     flex-shrink: 0;
+    margin-right: 42px;
 }
 
 .wcon {
     display: flex;
     background-color: #f9faf8;
-    padding: 200px;
-    margin: 0px;
+    margin-bottom: 0px;
+    padding: 100px;
+    padding-bottom: 10px;
     justify-content: space-around;
+    flex-shrink: 0;
 
 }
 
@@ -135,6 +141,8 @@ a {
     display: flex;
     justify-content: space-around;
     gap: 48px;
+    flex-shrink: 0;
+    /* border: 1px solid red; */
 
 }
 
@@ -149,6 +157,7 @@ a {
     border-radius: 9px;
     justify-content: space-between;
     align-items: center;
+    flex-shrink: 0;
 }
 
 .wconh {
@@ -158,6 +167,7 @@ a {
     align-content: center;
     flex-wrap: nowrap;
     background-color: #f9faf8;
+    padding-bottom: 0px;
 }
 
 .concon {
@@ -166,4 +176,22 @@ a {
     font-size: 40px;
     color: #1f2937;
     padding-top: 64px;
+}
+
+.wordz {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    align-content: center;
+    flex-direction: row;
+   /* border: 1px solid red;*/
+   background-color: #f9faf8;
+   padding: 0px 200px 65px 200px;
+}
+
+.txt {
+    /* border: 1px solid red; */
+    font-family: roboto;
+    font-weight: 200;
+    color:#1f2937;
 }
