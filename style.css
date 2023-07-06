@@ -186,7 +186,7 @@ a {
     flex-direction: row;
    /* border: 1px solid red;*/
    background-color: #f9faf8;
-   padding: 0px 200px 65px 200px;
+   padding: 0px 200px 100px 200px;
 }
 
 .txt {
@@ -194,4 +194,62 @@ a {
     font-family: roboto;
     font-weight: 200;
     color:#1f2937;
+}
+
+.gcon {
+    display: flex;
+    background-color: #e5e7eb;
+    padding: 200px 100px 50px 200px;
+
+}
+.para {
+    display: flex;
+    font-family: roboto;
+    font-size: 50px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.from {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #e5e7eb;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    font-family: roboto;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 20px;
+
+}
+
+.lastcon {
+    display: flex;
+    background-color: #f9faf8;
+    justify-content: center;
+    padding: 200px 100px 50px 200px
+}
+
+.bluecon {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 25px 225px 25px 225px;
+    justify-content: flex-start;
+
+}
+
+.call {
+    display: flex;
+    flex-direction: column;
+    font-family: roboto;
+    font-weight: 700;
+    color:#f9faf8;
+    border: 1px solid red;
+}
+
+.signnn {
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid red;
 }
